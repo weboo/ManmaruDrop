@@ -1,7 +1,7 @@
 html {
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #e1e6fa; }
+  background-color: #efefef; }
 
 .time {
   font-size: 0.9em;
@@ -12,7 +12,7 @@ html {
     content: "]"; }
 
 body {
-  font-family: "Osaka";
+  font-family: "Courier";
   font-size: 12px; }
   body.normal .line {
     margin: 1ex;
@@ -46,14 +46,3 @@ body {
       color: black; }
     body.normal .message[type=notice] {
       color: #666666; }
-  body.console {
-    font-size: 0.8em; }
-    body.console .sender {
-      margin-right: 1ex;
-      float: left; }
-    body.console .place {
-      color: #666666; }
-    body.console .message {
-      display: block;
-      margin-left: 2ex;
-      clear: both; }
